@@ -1,1 +1,1 @@
-# Riset-Infromatika-H
+# Riset-Informatika-H
