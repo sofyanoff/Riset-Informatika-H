@@ -10,45 +10,40 @@ Sistem seperti ini diharapkan mampu memberikan solusi efektif dalam meminimalkan
 1.2 Rumusan Masalah
 Berdasarkan latar belakang yang telah diuraikan, maka rumusan masalah dalam penelitian ini adalah sebagai berikut:
 
-Bagaimana merancang sistem pendeteksi kebocoran gas LPG yang dapat bekerja secara real-time menggunakan sensor gas berbasis IoT?
-
-Bagaimana cara mengintegrasikan modul mikrokontroler dengan platform Telegram Bot untuk memberikan notifikasi otomatis ketika terjadi kebocoran gas?
-
-Bagaimana menguji performa sistem dalam mendeteksi kebocoran gas dan mengirimkan peringatan kepada pengguna secara cepat dan akurat?
+1. Bagaimana merancang sistem pendeteksi kebocoran gas LPG yang dapat bekerja secara real-time menggunakan sensor gas berbasis IoT?
+2. Bagaimana cara mengintegrasikan modul mikrokontroler dengan platform Telegram Bot untuk memberikan notifikasi otomatis ketika terjadi kebocoran gas?
+3. Bagaimana menguji performa sistem dalam mendeteksi kebocoran gas dan mengirimkan peringatan kepada pengguna secara cepat dan akurat?
 
 1.3 Analisis Metode Penelitian
 Analisis metode penelitian bertujuan untuk menjelaskan tahapan sistematis dalam merancang, mengimplementasikan, dan menguji sistem pendeteksi kebocoran gas LPG berbasis Internet of Things (IoT) dengan fitur peringatan Telegram Bot. Penelitian ini dilakukan secara eksperimen dengan menggunakan pendekatan prototyping untuk menghasilkan sistem yang berfungsi secara nyata.
 
 Tahapan utama penelitian ini meliputi:
 
-Studi Literatur
-Melakukan kajian terhadap jurnal, buku, dan sumber ilmiah terkait penggunaan sensor gas (MQ-2), mikrokontroler (ESP8266/ESP32), serta teknologi IoT dan Telegram Bot untuk sistem deteksi dini.
+1. Studi Literatur
+   Melakukan kajian terhadap jurnal, buku, dan sumber ilmiah terkait penggunaan sensor gas (MQ-2), mikrokontroler (ESP8266/ESP32), serta teknologi IoT dan Telegram Bot untuk sistem deteksi dini.
 
-Perancangan Sistem
-Merancang arsitektur sistem yang mencakup komponen sensor, mikrokontroler, serta konektivitas internet. Perancangan ini juga meliputi alur pengiriman data dari sensor ke Telegram melalui jaringan Wi-Fi.
+2. Perancangan Sistem
+   Merancang arsitektur sistem yang mencakup komponen sensor, mikrokontroler, serta konektivitas internet. Perancangan ini juga meliputi alur pengiriman data dari sensor ke Telegram melalui jaringan Wi-Fi.
 
-Implementasi Perangkat Keras dan Perangkat Lunak
-Perangkat keras: merangkai sensor MQ-2 dengan mikrokontroler ESP8266 atau ESP32.
-Perangkat lunak: membuat program menggunakan Arduino IDE untuk membaca data sensor, menentukan ambang batas gas berbahaya, serta mengirimkan pesan peringatan melalui API Telegram Bot.
+3. Implementasi Perangkat Keras dan Perangkat Lunak
+   Perangkat keras: merangkai sensor MQ-2 dengan mikrokontroler ESP8266 atau ESP32.
+   Perangkat lunak: membuat program menggunakan Arduino IDE untuk membaca data sensor, menentukan ambang batas gas berbahaya, serta mengirimkan pesan peringatan melalui API Telegram Bot.
 
-Pengujian Sistem
-Menguji kinerja sistem terhadap berbagai kondisi, seperti tingkat konsentrasi gas berbeda dan jarak Wi-Fi tertentu. Pengujian difokuskan pada kecepatan pengiriman notifikasi dan akurasi pembacaan sensor.
+4. Pengujian Sistem
+   Menguji kinerja sistem terhadap berbagai kondisi, seperti tingkat konsentrasi gas berbeda dan jarak Wi-Fi tertentu. Pengujian difokuskan pada kecepatan pengiriman notifikasi dan akurasi pembacaan sensor.
 
-Evaluasi Kinerja Sistem
-Menganalisis hasil pengujian berdasarkan parameter:
+5. Evaluasi Kinerja Sistem
+   Menganalisis hasil pengujian berdasarkan parameter:
 
-Akurasi deteksi gas terhadap nilai ambang batas
-
-Waktu respon sistem dalam mengirim notifikasi ke Telegram
-
-Stabilitas sistem saat beroperasi dalam waktu tertentu
+* Akurasi deteksi gas terhadap nilai ambang batas
+* Waktu respon sistem dalam mengirim notifikasi ke Telegram
+* Stabilitas sistem saat beroperasi dalam waktu tertentu
 
 1.4 Manfaat Penelitian
 
-Bagi masyarakat umum: memberikan alat pendeteksi kebocoran gas yang praktis dan terjangkau.
-
-Bagi akademisi: menjadi bahan penelitian dan pengembangan sistem IoT berbasis keamanan rumah tangga.
-
-Bagi pengembang teknologi: memperluas implementasi IoT untuk sistem monitoring lingkungan secara real-time.
+1. Bagi masyarakat umum: memberikan alat pendeteksi kebocoran gas yang praktis dan terjangkau.
+2. Bagi akademisi: menjadi bahan penelitian dan pengembangan sistem IoT berbasis keamanan rumah tangga.
+3. Bagi pengembang teknologi: memperluas implementasi IoT untuk sistem monitoring lingkungan secara real-time.
 
 Dengan penelitian ini, diharapkan dapat dihasilkan sistem pendeteksi kebocoran gas LPG yang cerdas, efisien, dan mampu mengirimkan peringatan cepat melalui Telegram, sehingga meningkatkan keselamatan dan kesadaran masyarakat terhadap potensi bahaya kebocoran gas.
+
