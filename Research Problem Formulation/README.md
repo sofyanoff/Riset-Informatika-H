@@ -8,7 +8,7 @@ Dengan kemajuan teknologi **Internet of Things (IoT)**, sistem pendeteksi gas da
 
 Sistem seperti ini diharapkan mampu memberikan solusi efektif dalam meminimalkan risiko kebakaran akibat kebocoran gas, sekaligus menjadi contoh penerapan IoT yang relevan dengan kebutuhan rumah tangga maupun industri kecil.
 
----
+
 
 ## 1.2 Rumusan Masalah
 
@@ -18,7 +18,7 @@ Berdasarkan latar belakang yang telah diuraikan, maka rumusan masalah dalam pene
 2. Bagaimana cara mengintegrasikan **modul mikrokontroler dengan platform Telegram Bot** untuk memberikan notifikasi otomatis ketika terjadi kebocoran gas?  
 3. Bagaimana menguji **performa sistem** dalam mendeteksi kebocoran gas dan mengirimkan peringatan kepada pengguna secara cepat dan akurat?  
 
----
+
 
 ## 1.3 Analisis Metode Penelitian
 
@@ -45,7 +45,7 @@ Tahapan utama penelitian ini meliputi:
    - Waktu respon sistem dalam mengirim notifikasi ke Telegram,  
    - Stabilitas sistem saat beroperasi dalam waktu tertentu.  
 
----
+
 
 ## 1.4 Manfaat Penelitian
 
@@ -53,6 +53,6 @@ Tahapan utama penelitian ini meliputi:
 - **Bagi akademisi:** menjadi bahan penelitian dan pengembangan sistem IoT berbasis keamanan rumah tangga.  
 - **Bagi pengembang teknologi:** memperluas implementasi IoT untuk sistem monitoring lingkungan secara real-time.  
 
----
+
 
 **Dengan penelitian ini, diharapkan dapat dihasilkan sistem pendeteksi kebocoran gas LPG yang cerdas, efisien, dan mampu mengirimkan peringatan cepat melalui Telegram, sehingga meningkatkan keselamatan dan kesadaran masyarakat terhadap potensi bahaya kebocoran gas.**
