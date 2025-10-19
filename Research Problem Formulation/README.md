@@ -55,4 +55,4 @@ Tahapan utama penelitian ini meliputi:
 
 ---
 
-📘 *Dengan penelitian ini, diharapkan dapat dihasilkan sistem pendeteksi kebocoran gas LPG yang cerdas, efisien, dan mampu mengirimkan peringatan cepat melalui Telegram, sehingga meningkatkan keselamatan dan kesadaran masyarakat terhadap potensi bahaya kebocoran gas.*
+**Dengan penelitian ini, diharapkan dapat dihasilkan sistem pendeteksi kebocoran gas LPG yang cerdas, efisien, dan mampu mengirimkan peringatan cepat melalui Telegram, sehingga meningkatkan keselamatan dan kesadaran masyarakat terhadap potensi bahaya kebocoran gas.**
