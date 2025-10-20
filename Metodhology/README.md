@@ -63,34 +63,3 @@ Pengujian dilakukan dengan tiga parameter utama:
 Data hasil pengujian akan dianalisis secara **kuantitatif** dan **deskriptif** untuk menentukan performa sistem.  
 Analisis dilakukan dengan menghitung rata-rata waktu respon, tingkat akurasi deteksi, serta persentase keberhasilan pengiriman notifikasi.  
 Hasil pengujian ditampilkan dalam bentuk tabel dan grafik untuk mempermudah interpretasi.
-
----
-
-## 🧠 Mind Map Penelitian
-
-```mermaid
-mindmap
-  root((Sistem Deteksi Kebocoran Gas IoT))
-    Desain Penelitian
-      Eksperimen IoT
-      Analisis Akurasi & Respon
-    Tahapan
-      Studi Literatur
-      Perancangan Sistem
-      Implementasi
-      Pengujian
-      Analisis & Kesimpulan
-    Komponen
-      Hardware
-        Sensor MQ-2
-        ESP8266/ESP32
-      Software
-        Arduino IDE
-        Telegram Bot API
-    Pengujian
-      Akurasi Sensor
-      Waktu Respon
-      Stabilitas Koneksi
-    Hasil
-      Analisis Kuantitatif
-      Rekomendasi Pengembangan
