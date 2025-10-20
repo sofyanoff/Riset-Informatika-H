@@ -1,0 +1,96 @@
+# BAB III – METODOLOGI PENELITIAN
+
+## 3.1 Desain Penelitian
+
+Penelitian ini menggunakan **metode eksperimental** dengan pendekatan **Internet of Things (IoT)** untuk merancang dan menguji sistem pendeteksi kebocoran gas LPG berbasis sensor **MQ-2** dan **mikrokontroler ESP8266/ESP32** yang terintegrasi dengan **Telegram Bot API** sebagai media notifikasi.
+
+Fokus penelitian adalah mengukur **akurasi sensor**, **waktu respon pengiriman notifikasi**, serta **stabilitas sistem** pada berbagai kondisi jaringan.
+
+---
+
+## 3.2 Tahapan Penelitian
+
+Tahapan penelitian secara umum dibagi menjadi lima langkah utama:
+
+| Tahap | Deskripsi |
+|-------|------------|
+| **1. Studi Literatur** | Mempelajari referensi terkait sistem deteksi gas berbasis IoT, cara kerja sensor MQ-2, ESP8266/ESP32, serta integrasi Telegram Bot API. |
+| **2. Perancangan Sistem** | Membuat rancangan perangkat keras (hardware) dan perangkat lunak (software). Diagram blok sistem mencakup sensor, mikrokontroler, koneksi Wi-Fi, serta Telegram Bot. |
+| **3. Implementasi** | Melakukan perakitan komponen dan penulisan program pada Arduino IDE menggunakan bahasa C/C++. |
+| **4. Pengujian dan Evaluasi** | Mengukur waktu respon dari deteksi gas hingga notifikasi dikirim ke Telegram, menganalisis akurasi pembacaan sensor, serta kestabilan sistem terhadap kondisi jaringan berbeda. |
+| **5. Analisis dan Kesimpulan** | Menarik kesimpulan dari hasil pengujian dan memberikan rekomendasi pengembangan lebih lanjut. |
+
+---
+
+## 3.3 Alat dan Bahan Penelitian
+
+| Jenis | Komponen |
+|-------|-----------|
+| **Perangkat Keras** | Sensor MQ-2, ESP8266/ESP32, Breadboard, Kabel Jumper, Regulator Tegangan, Power Supply 5V. |
+| **Perangkat Lunak** | Arduino IDE, Telegram Bot API, Library WiFi, Library Universal Telegram Bot. |
+| **Lingkungan Pengujian** | Jaringan Wi-Fi rumah tangga dengan variasi sinyal kuat dan lemah untuk menguji stabilitas sistem. |
+
+---
+
+## 3.4 Diagram Alir Penelitian
+
+Berikut alur metodologi penelitian secara umum:
+
+1. Mulai  
+2. Studi literatur  
+3. Perancangan sistem (hardware dan software)  
+4. Implementasi dan integrasi dengan Telegram  
+5. Pengujian akurasi dan delay notifikasi  
+6. Analisis hasil  
+7. Kesimpulan dan dokumentasi  
+
+---
+
+## 3.5 Metode Pengujian
+
+Pengujian dilakukan dengan tiga parameter utama:
+
+| Parameter | Indikator | Tujuan |
+|------------|------------|---------|
+| **Akurasi Sensor** | Perbandingan antara nilai pembacaan sensor dan kondisi nyata kebocoran gas | Menilai keandalan sensor MQ-2 |
+| **Waktu Respon** | Selisih waktu dari deteksi gas → notifikasi terkirim ke Telegram | Mengukur efisiensi sistem |
+| **Stabilitas Koneksi** | Jumlah kegagalan notifikasi saat koneksi Wi-Fi tidak stabil | Menguji ketahanan sistem dalam kondisi jaringan berbeda |
+
+---
+
+## 3.6 Analisis Data
+
+Data hasil pengujian akan dianalisis secara **kuantitatif** dan **deskriptif** untuk menentukan performa sistem.  
+Analisis dilakukan dengan menghitung rata-rata waktu respon, tingkat akurasi deteksi, serta persentase keberhasilan pengiriman notifikasi.  
+Hasil pengujian ditampilkan dalam bentuk tabel dan grafik untuk mempermudah interpretasi.
+
+---
+
+## 🧠 Mind Map Penelitian
+
+```mermaid
+mindmap
+  root((Sistem Deteksi Kebocoran Gas IoT))
+    Desain Penelitian
+      Eksperimen IoT
+      Analisis Akurasi & Respon
+    Tahapan
+      Studi Literatur
+      Perancangan Sistem
+      Implementasi
+      Pengujian
+      Analisis & Kesimpulan
+    Komponen
+      Hardware
+        Sensor MQ-2
+        ESP8266/ESP32
+      Software
+        Arduino IDE
+        Telegram Bot API
+    Pengujian
+      Akurasi Sensor
+      Waktu Respon
+      Stabilitas Koneksi
+    Hasil
+      Analisis Kuantitatif
+      Rekomendasi Pengembangan
